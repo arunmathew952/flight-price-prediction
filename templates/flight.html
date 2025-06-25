@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body  style="background-image: url('static/image/a1.jpg'); display: flex; background-size: cover; ">
+    <form action="/predict", method="post">
+        <h1 style="color: black; text-shadow:10px;  left: 555px; top: 30px; position: absolute;">FLIGHT PRICE PREDICTOR</h1>
+        <label style="left: 600px; top: 240px; position: absolute; font-size:large">Airline</label>
+        <select name="Airline" style="width: 200px; height: 20px; left: 750px; top: 240px; position: absolute; ">
+            <option value="0">Air India</option>
+            <option value="1">IndiGo</option>
+            <option value="2">Jet Airways</option>
+            <option value="3">Multiple carriers</option>
+            <option value="4">SpiceJet</option>
+            <option value="5">other</option>
+        </select>
+        <br>
+        <br>
+        <label style="left: 600px; top: 275px; position: absolute; font-size:large">Source</label>
+        <select name="Source" style="width: 200px; height: 20px; left: 750px; top: 275px; position: absolute;">
+            <option value="0">Banglore</option>
+            <option value="1">Chennai</option>
+            <option value="2">Delhi</option>
+            <option value="3">Kolkata</option>
+            <option value="4">Mumbai</option>
+        </select>
+        <br>
+        <br>
+        <label style="left: 600px; top: 310px; position: absolute; font-size:large">Destination</label>
+        <select name="Destination" style="width: 200px; height: 20px; left: 750px; top: 310px; position: absolute;">
+            <option value="0">Banglore</option>
+            <option value="1">Cochin</option>
+            <option value="2">Delhi</option>
+            <option value="3">Hyderabad</option>
+            <option value="4">Kolkata</option>
+            <option value="5">New Delhi</option>
+        </select>
+        <br>
+        <br>
+        <label style="left: 600px; top: 345px; position: absolute; font-size:large">Total_Stops</label>
+        <input type="text" style="width: 200px; height: 20px; left: 750px; top: 345px; position: absolute;" name="Total_Stops">
+      
+        <label style="left: 600px; top: 380px; position: absolute; font-size:large">Journey_date</label>
+        <input type="date" style="width: 200px; height: 20px; left: 750px; top: 380px; position: absolute;" name="Jmonth">
+       
+        <label style="left: 600px; top: 415px; position: absolute; font-size:large">Arrival_Time</label>
+        <input type="text" style="width: 200px; height: 20px; left: 750px; top: 415px; position: absolute;" name="Aminute">
+       
+        <label style="left: 600px; top: 450px; position: absolute; font-size:large">Duration</label>
+        <input type="text" style="width: 200px; height: 20px; left: 750px; top: 450px; position: absolute;" name="Dur_Minute">
+       
+        <label style="left: 600px; top: 485px; position: absolute; font-size:large">Departure_Time</label>
+        <input type="text" style="width: 200px; height: 20px; left: 750px; top: 485px; position: absolute;" name="Dep_Minute">
+       
+        <button style="width: 100px; height: 25px; left: 860px; top: 520px; position: absolute;">submit</button></center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    </form>
+
+</body>
+</html>
